@@ -1,0 +1,99 @@
+# Technology Overview Points
+
+
+what is 
+how it workds
+arhitecture
+what for
+who can
+prerequisites
+versus
+features
+advantages 
+disadvantages
+
+1. **Core Concept**
+   - Fundamental philosophy or paradigm
+   - Primary use cases and target domains
+
+2. **Language Classification**
+   - Compiled vs. Interpreted
+   - Static vs. Dynamic typing
+   - Functional vs. Object-oriented vs. Procedural (or multi-paradigm)
+
+3. **Syntax Highlights**
+   - Key syntactical features
+   - Code structure and organization
+
+4. **Type System**
+   - Available data types
+   - Type inference capabilities
+   - Generic programming support
+
+5. **Memory Management**
+   - Manual vs. Automatic (garbage collection)
+   - Memory safety features
+
+6. **Concurrency Model**
+   - Threading support
+   - Asynchronous programming capabilities
+
+7. **Performance Characteristics**
+   - Execution speed
+   - Memory efficiency
+   - Scalability considerations
+
+8. **Ecosystem**
+   - Standard library features
+   - Package management and third-party libraries
+   - Build tools and dependency management
+
+9. **Interoperability**
+   - Ability to interface with other languages or systems
+   - Foreign Function Interface (FFI) capabilities
+
+10. **Platform Support**
+    - Supported operating systems
+    - Web, mobile, or desktop capabilities
+
+11. **Key Language Features**
+    - Unique or standout features
+    - Support for metaprogramming or reflection
+
+12. **Error Handling**
+    - Exception handling mechanism
+    - Error propagation model
+
+13. **Development Tools**
+    - IDEs and editor support
+    - Debugging tools
+    - Testing frameworks
+
+14. **Community and Governance**
+    - Open-source status
+    - Community size and activity
+    - Corporate backing (if any)
+
+15. **Learning Curve**
+    - Ease of adoption for beginners
+    - Complexity for advanced users
+
+16. **Versioning and Stability**
+    - Release cycle
+    - Backward compatibility policy
+
+17. **Security Features**
+    - Built-in security measures
+    - Common vulnerabilities and mitigations
+
+18. **Documentation and Resources**
+    - Quality and accessibility of official documentation
+    - Available learning resources (books, courses, tutorials)
+
+19. **Real-world Adoption**
+    - Notable projects or companies using the technology
+    - Industry sectors where it's popular
+
+20. **Future Roadmap**
+    - Planned features or improvements
+    - Long-term vision for the language

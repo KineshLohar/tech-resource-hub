@@ -4,10 +4,12 @@ import { useState, useEffect, useRef } from 'react'
 import { useRouter } from 'next/navigation'
 import { FaSearch } from 'react-icons/fa'
 import { technologies, web3Technologies } from '@/data/technologies'
+import { roles } from '@/data/roles'
 
 const sampleSuggestions = [
   ...technologies,
-  ...web3Technologies
+  ...web3Technologies,
+  ...roles
 ]
 
 const SearchBar = () => {

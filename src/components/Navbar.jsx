@@ -83,7 +83,7 @@ const Navbar = () => {
                 </div>
               </div>
 
-              <div className='flex flex-row items-center justify-between'>
+              <div className='hidden md:flex flex-row items-center justify-between'>
                 <button
                   onClick={toggleDarkMode}
                   className="p-2 rounded-md text-white hover:bg-gray-700 focus:outline-none focus:ring-2 focus:ring-blue-500 mb-2 md:mb-0"
