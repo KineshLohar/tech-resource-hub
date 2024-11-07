@@ -25,11 +25,11 @@ export default function Home() {
           <h2 className="text-2xl font-semibold mb-6 text-gray-800 dark:text-white">Featured </h2>
           <div className="flex flex-wrap gap-4  items-center">
             {featuredTechnologies.map((tech) => (
-              <TechnologyCard key={tech.id} id={tech.id} name={tech.name} slug={tech.path} />
+              <TechnologyCard key={tech.id} id={tech.id} name={tech.name} path={tech.path} />
             ))}
             {
               featuredRoles.map((role) => (
-                <TechnologyCard key={role.id} id={role.id} name={role.name} slug={role.path} />
+                <TechnologyCard key={role.id} id={role.id} name={role.name} path={role.path} />
               ))
             }
           </div>
@@ -39,7 +39,7 @@ export default function Home() {
           <h2 className="text-2xl font-semibold mb-6 text-gray-800 dark:text-white">All Technologies</h2>
           <div className="flex flex-wrap gap-4 items-center">
             {technologies.map((tech) => (
-                <TechnologyCard key={tech.id} id={tech.id} name={tech.name} slug={tech.path} />   
+                <TechnologyCard key={tech.id} id={tech.id} name={tech.name} path={tech.path} />   
             ))}
           </div>
         </section>
@@ -48,7 +48,7 @@ export default function Home() {
           <h2 className="text-2xl font-semibold mb-6 text-gray-800 dark:text-white">Web3 Technologies</h2>
           <div className="flex flex-wrap gap-4 items-center">
             {web3Technologies.map((tech) => (
-                <TechnologyCard key={tech.id} id={tech.id} name={tech.name} slug={tech.path} />
+                <TechnologyCard key={tech.id} id={tech.id} name={tech.name} path={tech.path} />
             ))}
           </div>
         </section>
@@ -57,7 +57,7 @@ export default function Home() {
           <h2 className="text-2xl font-semibold mb-6 text-gray-800 dark:text-white">Role-Based Guidance</h2>
           <div className="flex flex-wrap gap-4  items-center">
             {roles.map((role, index) => (
-                <TechnologyCard key={role.id} id={role.id} name={role.name} slug={role.path} />
+                <TechnologyCard key={role.id} id={role.id} name={role.name} path={role.path} />
             ))}
           </div>
         </section>
